@@ -24,6 +24,7 @@ val averageMobileDuration = logs
 
 
 // 2. 확장함수와 고차함수를 이용하여 특정 기기의 평균 접속시간 계산
+// 고차함수 : 다른 함수를 인자로 받거나 함수를 반환하는 함수를 말한다.
 // List<SiteVisit> : 수신객체 타입
 // averageDurationFor : 확장 함수
 // predicate: (SiteVisit) -> Boolean : 함수타입으로 된 파라미터 ==> predicate:파라미터이름, (SiteVisit): 함수타입의 파라미터타입, Boolean: 함수타입의 반환타입
